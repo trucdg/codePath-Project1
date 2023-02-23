@@ -3,9 +3,18 @@ import Restaurant from "./components/Restaurant";
 
 function App() {
   return (
-    <div>
+    <div className="main-content">
       <h1>Foodie Friends</h1>
-      <Restaurant />
+      <div className="container">
+        <div className="row">
+          <Restaurant />
+          <Restaurant />
+          <Restaurant />
+          <Restaurant />
+          <Restaurant />
+          <Restaurant />
+        </div>
+      </div>
     </div>
   );
 }
