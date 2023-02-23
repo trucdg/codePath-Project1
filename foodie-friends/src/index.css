@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Flavors&family=Poppins:wght@300;400;500&display=swap");
 
 body {
-  color: #fffffe;
-  background: #111;
+  color: #2d334a;
+  background: #eff0f3;
   font-family: "Poppins", sans-serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   font-family: "Flavors", cursive;
   margin: 1em;
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 .main-content {
   width: 80%;
@@ -18,22 +18,23 @@ h1 {
 }
 
 .card {
-  background: #222;
-  border: 1px solid #f25f4c;
-  color: #fffffe;
+  background: #d2e1ec;
+  border: 1px solid #272343;
+  color: #272343;
   margin-bottom: 2rem;
 }
 
 .card-subtitle,
 .card-text {
-  color: #a7a9be;
+  color: #2d334ad3;
 }
 
 .btn {
   border: 5px solid;
   text-decoration: none;
   transition: all 0.4s ease;
-  background-color: #ff8906;
+  background-color: #ff8e3c;
+  color: #272343;
 }
 
 .btn:hover,
@@ -41,10 +42,4 @@ h1 {
   border: 5px solid #fff;
   box-shadow: #222 1px 0 10px;
   text-decoration: underline;
-}
-
-@media screen and (min-width: 400px) {
-  h1 {
-    font-size: 45px;
-  }
 }
