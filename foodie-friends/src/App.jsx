@@ -1,5 +1,6 @@
 import React from "react";
 import Restaurant from "./components/Restaurant";
+import Header from "./components/Header";
 
 function App() {
   //hard-coded array of 10 restaurants in Boston Area
@@ -82,80 +83,82 @@ function App() {
     },
   ];
   return (
-    <div className="main-content">
-      <h1>Foodie Friends</h1>
-      <div className="container">
-        <div className="row">
-          <Restaurant
-            name={restaurants[0].name}
-            image={restaurants[0].image}
-            url={restaurants[0].url}
-            cuisine={restaurants[0].cuisine}
-            location={restaurants[0].location}
-          />
-          <Restaurant
-            name={restaurants[1].name}
-            image={restaurants[1].image}
-            url={restaurants[1].url}
-            cuisine={restaurants[1].cuisine}
-            location={restaurants[1].location}
-          />
-          <Restaurant
-            name={restaurants[2].name}
-            image={restaurants[2].image}
-            url={restaurants[2].url}
-            cuisine={restaurants[2].cuisine}
-            location={restaurants[2].location}
-          />
-          <Restaurant
-            name={restaurants[3].name}
-            image={restaurants[3].image}
-            url={restaurants[3].url}
-            cuisine={restaurants[3].cuisine}
-            location={restaurants[3].location}
-          />
-          <Restaurant
-            name={restaurants[4].name}
-            image={restaurants[4].image}
-            url={restaurants[4].url}
-            cuisine={restaurants[4].cuisine}
-            location={restaurants[4].location}
-          />
-          <Restaurant
-            name={restaurants[5].name}
-            image={restaurants[5].image}
-            url={restaurants[5].url}
-            cuisine={restaurants[5].cuisine}
-            location={restaurants[5].location}
-          />
-          <Restaurant
-            name={restaurants[6].name}
-            image={restaurants[6].image}
-            url={restaurants[6].url}
-            cuisine={restaurants[6].cuisine}
-            location={restaurants[6].location}
-          />
-          <Restaurant
-            name={restaurants[7].name}
-            image={restaurants[7].image}
-            url={restaurants[7].url}
-            cuisine={restaurants[7].cuisine}
-            location={restaurants[7].location}
-          />
-          <Restaurant
-            name={restaurants[8].name}
-            image={restaurants[8].image}
-            url={restaurants[8].url}
-            cuisine={restaurants[8].cuisine}
-            location={restaurants[8].location}
-          />
-          <Restaurant
-            name={restaurants[9].name}
-            image={restaurants[9].image}
-            url={restaurants[9].url}
-            cuisine={restaurants[9].cuisine}
-            location={restaurants[9].location}
-          />
+    <div>
+      <div className="main-content">
+        <Header />
+        <div className="container">
+          <div className="row">
+            <Restaurant
+              name={restaurants[0].name}
+              image={restaurants[0].image}
+              url={restaurants[0].url}
+              cuisine={restaurants[0].cuisine}
+              location={restaurants[0].location}
+            />
+            <Restaurant
+              name={restaurants[1].name}
+              image={restaurants[1].image}
+              url={restaurants[1].url}
+              cuisine={restaurants[1].cuisine}
+              location={restaurants[1].location}
+            />
+            <Restaurant
+              name={restaurants[2].name}
+              image={restaurants[2].image}
+              url={restaurants[2].url}
+              cuisine={restaurants[2].cuisine}
+              location={restaurants[2].location}
+            />
+            <Restaurant
+              name={restaurants[3].name}
+              image={restaurants[3].image}
+              url={restaurants[3].url}
+              cuisine={restaurants[3].cuisine}
+              location={restaurants[3].location}
+            />
+            <Restaurant
+              name={restaurants[4].name}
+              image={restaurants[4].image}
+              url={restaurants[4].url}
+              cuisine={restaurants[4].cuisine}
+              location={restaurants[4].location}
+            />
+            <Restaurant
+              name={restaurants[5].name}
+              image={restaurants[5].image}
+              url={restaurants[5].url}
+              cuisine={restaurants[5].cuisine}
+              location={restaurants[5].location}
+            />
+            <Restaurant
+              name={restaurants[6].name}
+              image={restaurants[6].image}
+              url={restaurants[6].url}
+              cuisine={restaurants[6].cuisine}
+              location={restaurants[6].location}
+            />
+            <Restaurant
+              name={restaurants[7].name}
+              image={restaurants[7].image}
+              url={restaurants[7].url}
+              cuisine={restaurants[7].cuisine}
+              location={restaurants[7].location}
+            />
+            <Restaurant
+              name={restaurants[8].name}
+              image={restaurants[8].image}
+              url={restaurants[8].url}
+              cuisine={restaurants[8].cuisine}
+              location={restaurants[8].location}
+            />
+            <Restaurant
+              name={restaurants[9].name}
+              image={restaurants[9].image}
+              url={restaurants[9].url}
+              cuisine={restaurants[9].cuisine}
+              location={restaurants[9].location}
+            />
+          </div>
         </div>
       </div>
     </div>

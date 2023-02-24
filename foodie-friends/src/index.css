@@ -47,3 +47,32 @@ h1 {
   box-shadow: #222 1px 0 10px;
   text-decoration: underline;
 }
+
+header {
+  background: url("http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg");
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  margin-bottom: 2.5em;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+/* Header CSS template: https://codepen.io/linux/pen/aEQKWP */
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+}
