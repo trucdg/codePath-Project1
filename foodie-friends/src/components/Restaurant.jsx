@@ -1,19 +1,15 @@
 import React from "react";
 
-const Restaurant = () => {
+const Restaurant = (props) => {
   return (
     <div className="col-lg-4 col-sm-6 mb-4">
       <div className="img-cont card h-100">
-        <img
-          src="https://s3-media0.fl.yelpcdn.com/bphoto/4Na6YdEKTo1MJrHCsHLd4A/o.jpg"
-          alt="displayed food"
-          class="card-img-top"
-        ></img>
+        <img src={props.image} alt="displayed food" class="card-img-top"></img>
         <div class="card-body">
-          <h5 class="card-title">Fogo de Chao</h5>
-          <h6 class="card-subtitle mb-2">Mexican</h6>
+          <h5 class="card-title">{props.name}</h5>
+          <h6 class="card-subtitle mb-2">{props.cuisine}</h6>
           <p class="card-text">Description about the restaurant</p>
-          <a href="#" class="btn mr-2">
+          <a href={props.url} class="btn mr-2" target="_blank">
             <i class="fas fa-link"></i> Visit Site
           </a>
         </div>

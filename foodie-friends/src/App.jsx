@@ -15,7 +15,8 @@ function App() {
     {
       name: "O Ya",
       cuisine: "Japanese",
-      image: "https://media.timeout.com/images/102917776/750/422/image.jpg",
+      image:
+        "https://s3-media0.fl.yelpcdn.com/bphoto/DKgGXBFHWO0pkswkAHP3YA/o.jpg",
       location: "9 East St Boston, MA 02111",
       url: "https://www.o-ya.restaurant/",
     },
@@ -89,51 +90,61 @@ function App() {
             name={restaurants[0].name}
             image={restaurants[0].image}
             url={restaurants[0].url}
+            cuisine={restaurants[0].cuisine}
           />
           <Restaurant
             name={restaurants[1].name}
             image={restaurants[1].image}
             url={restaurants[1].url}
+            cuisine={restaurants[1].cuisine}
           />
           <Restaurant
             name={restaurants[2].name}
             image={restaurants[2].image}
             url={restaurants[2].url}
+            cuisine={restaurants[2].cuisine}
           />
           <Restaurant
             name={restaurants[3].name}
             image={restaurants[3].image}
             url={restaurants[3].url}
+            cuisine={restaurants[3].cuisine}
           />
           <Restaurant
             name={restaurants[4].name}
             image={restaurants[4].image}
             url={restaurants[4].url}
+            cuisine={restaurants[4].cuisine}
           />
           <Restaurant
             name={restaurants[5].name}
             image={restaurants[5].image}
             url={restaurants[5].url}
+            cuisine={restaurants[5].cuisine}
           />
           <Restaurant
             name={restaurants[6].name}
             image={restaurants[6].image}
             url={restaurants[6].url}
+            cuisine={restaurants[6].cuisine}
           />
           <Restaurant
             name={restaurants[7].name}
             image={restaurants[7].image}
             url={restaurants[7].url}
+            cuisine={restaurants[7].cuisine}
           />
           <Restaurant
             name={restaurants[8].name}
             image={restaurants[8].image}
             url={restaurants[8].url}
+            cuisine={restaurants[8].cuisine}
           />
           <Restaurant
             name={restaurants[9].name}
             image={restaurants[9].image}
             url={restaurants[9].url}
+            cuisine={restaurants[9].cuisine}
           />
         </div>
       </div>

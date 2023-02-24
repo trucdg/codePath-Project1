@@ -29,6 +29,10 @@ h1 {
   color: #2d334ad3;
 }
 
+.img-cont img {
+  height: 70%;
+}
+
 .btn {
   border: 5px solid;
   text-decoration: none;
