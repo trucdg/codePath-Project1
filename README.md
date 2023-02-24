@@ -12,18 +12,18 @@ dishes around the city. This board also inspires students to try out new cuisine
 
 ### 🎯 Goals
 By the end of the assignment you will be able to ...
-- [ ] Initialize a new React application with Vite
-- [ ] Create a functional React component
-- [ ] Define and pass props to components
-- [ ] Apply CSS styling to React components
+- [x] Initialize a new React application with Vite
+- [x] Create a functional React component
+- [x] Define and pass props to components
+- [x] Apply CSS styling to React components
 
 ### Required Features
-- [ ] Create a unique theme for events or resources relevant to a specific community
-- [ ] Display at least 10 unique resources or events in a responsive card format
+- [x] Create a unique theme for events or resources relevant to a specific community
+- [x] Display at least 10 unique resources or events in a responsive card format
 
 ### Stretch Features
-- [ ] Add buttons or links to a related resource on each card component
-- [ ] Make the site responsive for both desktop and mobile formats
+- [x] Add buttons or links to a related resource on each card component
+- [x] Make the site responsive for both desktop and mobile formats
 
 ## Resources 
 - [Getting Started with Vitel](https://vitejs.dev/guide/)
