@@ -34,14 +34,9 @@ By the end of the assignment you will be able to ...
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/trucdg/codePath-Project1/blob/main/project1-walkthrough1-compressed.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+⚡️ GIF created with  [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
