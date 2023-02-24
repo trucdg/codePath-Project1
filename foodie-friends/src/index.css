@@ -2,7 +2,7 @@
 
 body {
   color: #2d334a;
-  background: #eff0f3;
+  background: #faeee7;
   font-family: "Poppins", sans-serif;
 }
 
@@ -18,8 +18,8 @@ h1 {
 }
 
 .card {
-  background: #d2e1ec;
-  border: 1px solid #272343;
+  background: #ffc6c7;
+  border: 1px solid #594a4e;
   color: #272343;
   margin-bottom: 2rem;
 }
@@ -37,8 +37,8 @@ h1 {
   border: 5px solid;
   text-decoration: none;
   transition: all 0.4s ease;
-  background-color: #ff8e3c;
-  color: #272343;
+  background-color: #fffffe;
+  color: #594a4e;
 }
 
 .btn:hover,
